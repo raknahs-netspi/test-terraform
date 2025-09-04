@@ -2,7 +2,7 @@
 
 variable "sample_var" {
   description = "A sample_var to pass to the template."
-  default     = "hello"
+  default     = "id"
 }
 
 variable "sleepy_time" {
